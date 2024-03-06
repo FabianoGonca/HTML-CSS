@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Playfair+Display+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: aliceblue;
+    --cor-terciaria: #B4A5A5;
+
+    --fonte-primaria: 'Playfair Display SC', serif;
+    --fonte-secundaria: 'Fira Sans', sans-serif;
+
+
+}
+
+
+
+
+body {
+    background-image: url("../assets/background/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h2 {
+    margin: 3% 20% 0% 14%;
+    font-size: 2.18rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+p a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fotografos__cabecalho {
+    background-color: var(--cor-primaria);
+    max-height: 50%;
+}
+
+.fotografos__cabecalho__menu__link {
+    font-family: var(--fonte-primaria);
+
+    font-weight: 400;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.fotografos__cabecalho__menu {
+    padding: 30px;
+}
+
+
+.contato {
+    margin: 2% 20% 0% 14%;
+    display: flex;
+    gap: 3px;
+
+
+}
+
+.fotografos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* line-break: auto;  */
+
+}
+
+.fotografos__borda {
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
+
+.fotografos__borda__nomes {
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.fotografos2 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* margin: 1.87em 0.62em 0,31em 30em; */
+}
+
+.fotografos2__borda {
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+
+}
+
+.fotografos2__borda__nomes {
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+}
+
+@media (max-width:500px) {
+
+    .fotografos__borda {
+        align-items: center;
+    }
+
+    .fotografos__cabecalho__menu {
+        align-items: center;
+    }
+
+    .fotografos__cabecalho__menu__link {
+        font-family: var(--fonte-primaria);
+
+        font-weight: 400;
+        color: var(--cor-terciaria);
+        text-decoration: none;
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    .fonte {
+        text-align: center;
+        padding: 5px;
+        font-size: 2rem;
+
+    }
+}

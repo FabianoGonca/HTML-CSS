@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */
+
+@media print {}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* Tablet*/
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    /*desktop*/
+
+
+}
+
+@media screen and (min-width:1200) {
+    /*Grandes telas*/
+
+}
