@@ -4,15 +4,57 @@
 
 @media print {}
 
-@media screen and (min-width:768px) and (max-width:992px) {
+
+@media screen and (min-width:320px) and (max-width:500px)
+
+@media screen and (min-width:500px) and (max-width:992px) {
     /* Tablet*/
 
+    form {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        margin-top: 1rem;
+
+
+    }
+
+    input {
+
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+     display: block;
+        width: 60vw;
+        margin: auto;
+    margin-bottom: 0.8rem;
+
+    }
 
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
     /*desktop*/
+    form {
+        display: flex;
+        flex-direction: column;
 
+        justify-content: center;
+        margin-top: 1rem;
+
+
+    }
+
+    input {
+
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+     display: block;
+        width: 60vw;
+        margin: auto;
+    margin-bottom: 0.8rem;
+
+    }
 
 }
 
