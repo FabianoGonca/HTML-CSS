@@ -46,6 +46,7 @@ p {
     color: brown;
     letter-spacing: 0.3rem;
     letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
 }
 
 form {
@@ -71,6 +72,7 @@ form a {
     display: block;
     margin: 0px auto;
     padding: 0.5rem;
+    text-decoration: none;
 
 
 
@@ -85,13 +87,12 @@ form a {
 }
 
 
-.produtora { 
-}
+
 
 img {
     display: block;
     margin: 0px auto;
-    padding: 1rem;
+    padding: 5%;
    
 }
 
